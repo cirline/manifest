@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name = "allcode" fetch = "./" />
+    <remote name = "allcode" fetch = "git@github.com:cirline/" />
     <default revision = "master" remote = "allcode" sync-j = "4" />
 
-    <!--project path = "tools" name = "tools" /-->
+    <project path = "ct" name = "ct" />
 </manifest>
